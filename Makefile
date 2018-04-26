@@ -34,4 +34,4 @@ $(SOURCEDIR)/MSILMParameters: $(SOURCEDIR)/Parameters.o $(SOURCEDIR)/MSILMParame
 $(SOURCEDIR)/Parameters.o: $(SOURCEDIR)/Parameters.h
 
 clean:
-	rm -f ${SOURCEDIR}*.o ${SOURCEDIR}*.dump ${SOURCEDIR}*.exe ${SOURCEDIR}*.log ${SOURCEDIR}*.rst
+	rm -f ${SOURCEDIR}/*.o ${SOURCEDIR}/*.dump ${SOURCEDIR}/*.exe ${SOURCEDIR}/*.log ${SOURCEDIR}/*.rst
